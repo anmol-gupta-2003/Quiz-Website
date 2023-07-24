@@ -151,7 +151,7 @@ function showResultBox() {
         progressStartVlaue++;
         //console.log(progressStartVlaue);
         progressVlaue.textContent = `${progressStartVlaue}%`;
-        circularProgress.style.background = `conic-gradient(#c40094 ${progressStartVlaue * 3.6}deg,rgba(255, 255, 255, .1) 0deg)`;
+        circularProgress.style.background = `conic-gradient(#fff ${progressStartVlaue * 3.6}deg,rgba(255, 255, 255, .1) 0deg)`;
 
         if(progressStartVlaue == progressEndValue){
             clearInterval(progress);
