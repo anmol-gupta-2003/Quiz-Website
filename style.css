@@ -51,7 +51,7 @@ body{
 
 .main{
     min-height: 100vh;
-    background: url('background02.png') no-repeat;
+    background: url('../img/background02.png') no-repeat;
     background-size: cover;
     background-position: center;
     pointer-events: auto;
@@ -201,7 +201,7 @@ body{
     position: relative;
     left: -50.5%;
     width: 50%;
-    background: url('background04.jpg');
+    background: url('../img/background04.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
